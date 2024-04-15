@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5702ba89-7242-490e-b04d-e4a691faced5/deploy-status)](https://app.netlify.com/sites/fernfolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6bc1acf9-f4fe-430b-bf0c-abbc7055b15d/deploy-status)](https://app.netlify.com/sites/sharathrajmohan/deploys)
 
 # Fernfolio — An 11ty Portfolio Template
 Launch your personal portfolio in minutes and modify content without opening a code editor!

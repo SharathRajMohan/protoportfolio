@@ -37,12 +37,13 @@
 }
 
 .site-header__logo {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   width: 30px;
   height: 30px;
   padding: 6px 8px;
+  margin: auto;
   border-radius: var(--border-radius-sm);
   color: var(--color-text);
 
@@ -58,7 +59,7 @@
 
     :root[data-theme="dark"] & {
       background-color: var(--color-bg-wrapper-bg-dark);
-      color: var(--color-title-dark);
+      color: cyan
     }
   }
 

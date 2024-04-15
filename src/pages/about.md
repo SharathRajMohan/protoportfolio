@@ -9,23 +9,20 @@ eleventyNavigation:
   order: 1
 ---
 
-### What is Fernfolio?
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of creating a beautiful portfolio and blog. Tightly integrated with [Netlify CMS](https://www.netlifycms.org/) for flexible, Git-powered content management.
+Hey, I'm Sharath Mohan, a data scientist making and breaking (mostly breaking..) things using Python.
 
-### Why create this?
+I am currently a Data Science Consultant at Krypc, working on making Web3 Transactions safer and intuitive. At the same time, I am undertaking a Post Graduate Course in Full Stack Software Development at Lambton College, Toronto.
 
-**Reason #1:** I wanted a portfolio that was simple, fast, accessible, and integrated with a git-powered cms. Existing templates didn't perfectly fit my needs, so I decided to build my own template.
+Here are some technologies I have been working with:
 
-**Reason #2:** I wanted to learn more about [Eleventy](https://www.11ty.dev/) and static site generators in general. Building Fernfolio was a good excuse to dive deeper on that topic.
+* Python
+* Sql
+* Tableau
+* MLFlow
+* Apache Spark
+* Apache Airflow
+* Google Cloud
 
-### How do I edit content?
-Once your site is deployed and configured, add `/admin` to the end of the url (not using localhost) and hit refresh. From there, you should be able to login and see see the content management dashboard. You should be able to change most content here (e.g. page text, images, logo, articles, projects, etc.).
-
-### Further customizations
-If you want to take your customizations further, you will need to modify the project source code. Some customizations, like changing theme colors and fonts, are straightforward (those can be modified in the `variables.scss` file). Other customizations will require more in-depth solutions.
-
-If you get stuck or just have a question, feel free to create a [Github issue](https://github.com/TylerMRoderick/fernfolio-11ty-template/issues) and I will try to point you in the right direction.
-
-Thanks for checking out Fernfolio 👋 - [Tyler M. Roderick](https://www.tylerroderick.com/)
+Outside of work, I'm interested in exploring and experiencing the world. I also play a soccer. And enjoy gardening.
 
 ![Fern in Hand](/src/assets/img/fern-forest.jpeg "Fern in Hand")
