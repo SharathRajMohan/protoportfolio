@@ -23,6 +23,6 @@ Here are some technologies I have been working with:
 * Apache Airflow
 * Google Cloud
 
-Outside of work, I'm interested in exploring and experiencing the world. I also play a soccer. And enjoy gardening.
+Outside of work, I'm interested in exploring and experiencing the world. I also play soccer. And enjoy gardening.
 
 ![Fern in Hand](/src/assets/img/fern-forest.jpeg "Fern in Hand")
