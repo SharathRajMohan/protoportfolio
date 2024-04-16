@@ -191,3 +191,26 @@ collections:
             fields:
               - { label: "Key", name: "key", widget: "string" }
               - { label: "Order", name: "order", widget: "number", default: 0 }
+
+      # Experience Page
+      - label: "Experience Page"
+        name: "experience"
+        file: "src/pages/experience.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+          - {
+              label: "Meta Description",
+              name: "metaDescription",
+              widget: "text",
+              required: false,
+            }
+          - { label: "Start Date", name: "date", widget: "datetime" }
+          - { label: "End Date", name: "date", widget: "datetime" }
+          - { label: "Permalink", name: "permalink", widget: "string" }
+          - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
+            name: "eleventyNavigation"
+            widget: "object"
+            fields:
+              - { label: "Key", name: "key", widget: "string" }
+              - { label: "Order", name: "order", widget: "number", default: 0 }

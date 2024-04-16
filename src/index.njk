@@ -24,6 +24,14 @@ section: home
     </div>
   </div>
 
+  {# Experience #}
+  <div class="list-header">
+    <h2 class="list-header__title">Experience</h2>
+    <a class="btn btn--outline btn--sm" href="/experience">View All</a>
+  </div>
+  {% from "macros/projectlist.njk" import projectlist %}
+  {{ projectlist(projects = collections.project | reverse) }}
+
   {# Projects #}
   <div class="list-header">
     <h2 class="list-header__title">Projects</h2>

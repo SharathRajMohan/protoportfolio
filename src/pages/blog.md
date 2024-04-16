@@ -10,5 +10,5 @@ metaDescription: A sample Blog page listing various posts.
 subtitle: A collection of technical blog posts and random thoughts
 eleventyNavigation:
   key: Blog
-  order: 2
+  order: 3
 ---
