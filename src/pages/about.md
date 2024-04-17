@@ -9,9 +9,9 @@ eleventyNavigation:
   order: 1
 ---
 
-Hey, I'm Sharath Mohan, a data scientist making and breaking (mostly breaking..) things using Python.
+Hey, I'm Sharath, a passionate data scientist making and breaking (mostly breaking..) things using Python.
 
-I am currently a Data Science Consultant at Krypc, working on making Web3 Transactions safer and intuitive. At the same time, I am undertaking a Post Graduate Course in Full Stack Software Development at Lambton College, Toronto.
+Currently, I apply my expertise as a Data Science Consultant at Krypc, working on making Web3 Transactions safer and intuitive. At the same time, I'm pursuing a Post Graduate Certification in Full Stack Software Development at Lambton College, Toronto.
 
 Here are some technologies I have been working with:
 
@@ -25,4 +25,6 @@ Here are some technologies I have been working with:
 
 Outside of work, I'm interested in exploring and experiencing the world. I also play soccer. And enjoy gardening.
 
-![Fern in Hand](/src/assets/img/fern-forest.jpeg "Fern in Hand")
+Let's uncover the stories data has to tell together!
+
+![Fern in Hand](/src/assets/img/AboutMe.jpg "Fern in Hand")

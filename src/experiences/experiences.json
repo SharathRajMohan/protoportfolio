@@ -1,0 +1,5 @@
+{
+    "layout": "experience.njk",
+    "permalink": "experiences/{{ title | slug }}/index.html",
+    "tags": ["experience"]
+  }

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+section: experiences
+---
+<div class="page-container">
+  <h1>{{title}}</h1>
+
+  {% if subtitle %}
+    <p>{{ subtitle }}</p>
+  {% endif %}
+
+  <hr/>
+
+  {{ layoutContent | safe }}
+
+  {# Experiences #}
+  {% from "macros/experiencelist.njk" import experiencelist %}
+  {{ experiencelist(experience = collections.experience | reverse) }}
+</div>

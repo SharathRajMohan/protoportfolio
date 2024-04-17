@@ -81,6 +81,26 @@ collections:
         }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
 
+  # Experiences
+  - name: "experience"
+    label: "Experience"
+    folder: "src/experience"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Emoji", name: "emoji", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - {
+          label: "Meta Description",
+          name: "metaDescription",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Tags", name: "tags", widget: "list", default: ["tech"] }
+
   # Pages
   - name: "pages"
     label: "Page"
@@ -205,8 +225,8 @@ collections:
               widget: "text",
               required: false,
             }
-          - { label: "Start Date", name: "date", widget: "datetime" }
-          - { label: "End Date", name: "date", widget: "datetime" }
+          - { label: "Start Date", name: "startdate", widget: "datetime" }
+          - { label: "End Date", name: "enddate", widget: "datetime" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
             name: "eleventyNavigation"

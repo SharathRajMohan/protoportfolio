@@ -11,6 +11,7 @@ const Experience = createClass({
       <main>
         <h1>${entry.getIn(['data', 'title'], null)}</h1>
         <p>${entry.getIn(['data', 'subtitle'], null)}</p>
+        <p>ExpTest</p>
         <hr/>
 
         ${this.props.widgetFor('body')}
