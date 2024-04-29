@@ -1,7 +1,7 @@
 import Home from '/admin/preview-templates/home.js';
 import About from '/admin/preview-templates/about.js';
-import Blog from '/admin/preview-templates/blog.js';
-import Article from '/admin/preview-templates/article.js';
+// import Blog from '/admin/preview-templates/blog.js';
+// import Article from '/admin/preview-templates/article.js';
 import Projects from '/admin/preview-templates/projects.js';
 import Project from '/admin/preview-templates/project.js';
 import Contact from '/admin/preview-templates/contact.js';
@@ -10,8 +10,8 @@ import Experience from '/admin/preview-templates/experience.js'
 // Register preview templates
 CMS.registerPreviewTemplate('home', Home);
 CMS.registerPreviewTemplate('about', About);
-CMS.registerPreviewTemplate('blog', Blog);
-CMS.registerPreviewTemplate('article', Article);
+// CMS.registerPreviewTemplate('blog', Blog);
+// CMS.registerPreviewTemplate('article', Article);
 CMS.registerPreviewTemplate('projects', Projects);
 CMS.registerPreviewTemplate('project', Project);
 CMS.registerPreviewTemplate('contact', Contact);
