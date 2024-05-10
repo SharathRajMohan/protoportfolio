@@ -16,7 +16,7 @@ Currently, I apply my expertise as a Data Science Consultant at Krypc, working o
 Here are some technologies I have been working with:
 
 * Python
-* Sql
+* SQL
 * Tableau
 * MLFlow
 * Apache Spark

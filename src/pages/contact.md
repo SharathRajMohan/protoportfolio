@@ -12,8 +12,17 @@ eleventyNavigation:
   key: Contact
   order: 5
 ---
+Feel free to reach out to me through any of the following channels:
 
-The contact form on this page uses [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process submissions,
-and saves them in the connected Netlify account where notifications can
-optionally be configured. Each submission is passed through a spam filter and
-if flagged, will display a CAPTCHA challenge to the user.
+- **Email**: [sharathadm97@gmail.com](mailto:sharathadm97@gmail.com)
+- **LinkedIn**: [Sharath Mohan](https://www.linkedin.com/in/sharathrajmohan)
+- **Instagram**: [@sharathrajmohan](https://instagram.com/sharathrajmohan)
+- **GitHub**: [SharathRajMohan](https://github.com/SharathRajMohan)
+
+<div style="margin-top: 20px;">
+  <p style="font-size: 14px; color: #777;"><div style="margin-top: 20px;">
+  <p style="font-size: 14px; color: #777;">Connect with me for updates on my latest data science projects!</p>
+</div>
+</p>
+</div>
+
