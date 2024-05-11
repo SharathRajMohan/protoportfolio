@@ -29,8 +29,8 @@ section: home
     <h2 class="list-header__title">Experience</h2>
     <a class="btn btn--outline btn--sm" href="/experience">View All</a>
   </div>
-  {% from "macros/projectlist.njk" import projectlist %}
-  {{ projectlist(projects = collections.project | reverse) }}
+  {% from "macros/experiencelist.njk" import experiencelist %}
+  {{ experiencelist(experiences = collections.experience ) }}
 
   {# Projects #}
   <div class="list-header">
@@ -40,15 +40,4 @@ section: home
   {% from "macros/projectlist.njk" import projectlist %}
   {{ projectlist(projects = collections.project | reverse) }}
 
-  {# Articles #}
-  <div class="list-header">
-    <h2 class="list-header__title">Articles</h2>
-    <a class="btn btn--outline btn--sm" href="/blog">View All</a>
-  </div>
-  {% from "macros/articlelist.njk" import articlelist %}
-  {{ articlelist(
-    articles = collections.post | reverse,
-    show_tags = false,
-    limit = 3
-  ) }}
 </div>

@@ -6,6 +6,7 @@ import Projects from '/admin/preview-templates/projects.js';
 import Project from '/admin/preview-templates/project.js';
 import Contact from '/admin/preview-templates/contact.js';
 import Experience from '/admin/preview-templates/experience.js'
+import Experiences from '/admin/preview-templates/experiences.js'
 
 // Register preview templates
 CMS.registerPreviewTemplate('home', Home);
@@ -16,6 +17,7 @@ CMS.registerPreviewTemplate('projects', Projects);
 CMS.registerPreviewTemplate('project', Project);
 CMS.registerPreviewTemplate('contact', Contact);
 CMS.registerPreviewTemplate('experience', Experience);
+CMS.registerPreviewTemplate('experiences', Experiences);
 
 // Register CSS
 fetch('/')
