@@ -84,22 +84,18 @@ collections:
   # Experiences
   - name: "experience"
     label: "Experience"
-    folder: "src/experience"
+    folder: "src/experiences"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Organization", name: "organization", widget: "string" }
+      - { label: "Role", name: "role", widget: "string"}
       - { label: "Emoji", name: "emoji", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - {
-          label: "Meta Description",
-          name: "metaDescription",
-          widget: "text",
-          required: false,
-        }
-      - { label: "Tags", name: "tags", widget: "list", default: ["tech"] }
+      - { label: "Start Date", name: "startdate", widget: "date" }
+      - { label: "IsCurrent", name: "isCurrent", widget: "string", required: false}
+      - { label: "End Date", name: "enddate", widget: "date", required: false}
+      - { label: "Location", name: "location", widget: "string", required: false}
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
   # Pages
   - name: "pages"
@@ -217,16 +213,19 @@ collections:
         name: "experience"
         file: "src/pages/experience.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown", required: false }
+          - { label: "Organization", name: "organization", widget: "string" }
+          - { label: "Role", name: "role", widget: "string"}
+          - { label: "Emoji", name: "emoji", widget: "string" }
+          - { label: "Start Date", name: "startdate", widget: "datetime" }
+          - { label: "IsCurrent", name: "isCurrent", widget: "string", required: false}
+          - { label: "End Date", name: "enddate", widget: "datetime", required: false}
+          - { label: "Location", name: "location", widget: "string", required: false}
           - {
               label: "Meta Description",
               name: "metaDescription",
               widget: "text",
               required: false,
             }
-          - { label: "Start Date", name: "startdate", widget: "datetime" }
-          - { label: "End Date", name: "enddate", widget: "datetime" }
           - { label: "Permalink", name: "permalink", widget: "string" }
           - label: "Navigation" # https://www.11ty.dev/docs/plugins/navigation/
             name: "eleventyNavigation"

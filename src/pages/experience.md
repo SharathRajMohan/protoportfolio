@@ -77,7 +77,7 @@ eleventyNavigation:
 
 <style>
   .bullets {
-    font-size : 17px;
+    font-size : 18px;
     font-family: 'Times New Roman', Times;
   }
   h2 {

@@ -3,20 +3,23 @@
     <div class="project-grid">
       {% for experience in experiences %}
         <div class="project-card" {% if experience.url == url %} data-current="current item"{% endif %}>
-          <h4>
-            <a class="project-card__title" href="{{ experience.url | url }}">
-              {% if experience.data.title %}
-                {{ experience.data.title }}
+          <h3>
+              {% if experience.data.emoji %}
+                <span class="project-card__emoji">{{ experience.data.emoji }}</span>
+              {% endif %}
+              {% if experience.data.organization %}
+                {{ experience.data.organization }} 
               {% else %}
                 Untitled
               {% endif %}
-            </a>
-          </h4>
-          {% if experience.data.summary %}
-            <p>
-              {{ experience.data.summary }}
-            </p>
+          </h3>
+          <h4>{{ experience.data.role }}</h4>
+          {% if experience.data.isCurrent %}
+                <p>{{ experience.data.startdate }} - {{ experience.data.isCurrent }}</p>
+              {% else %}
+                <p>{{ experience.data.startdate }} - {{ experience.data.enddate }}</p>
           {% endif %}
+          <p>{{ experience.data.location }}</p>
         </div>
       {% endfor %}
     </div>
